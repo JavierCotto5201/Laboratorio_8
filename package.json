@@ -1,0 +1,37 @@
+{
+  "name": "Laboratorio7_WEB",
+  "version": "1.0.0",
+  "description": "Este github comprende el laboratorio 7 de Sistemas y Tecnologías Web",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierCotto5201/Laboratorio7_WEB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavierCotto5201/Laboratorio7_WEB/issues"
+  },
+  "homepage": "https://github.com/JavierCotto5201/Laboratorio7_WEB#readme",
+  "devDependencies": {
+    "css-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.2.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "sass": "^1.32.8"
+  }
+}

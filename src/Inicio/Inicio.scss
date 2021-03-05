@@ -1,0 +1,81 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~animate.css/animate.css";
+
+body {
+	background-image: linear-gradient(#7F8C8D, #000);
+	height: "720px";
+}
+#titulo_inicio {
+	background-image: linear-gradient(#5E5C5C, #9DC5C3);
+	padding: 20px;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 45px;
+	font-family: Angel wish, Arial, 'Times New Roman', Times, serif;
+}
+#intro_inicio {
+	color: white;
+	font-style: italic;
+	text-align: center;
+	font-size: 25px;
+	font-family: Angel wish, Arial, 'Times New Roman', Times, serif;
+}
+#lista_inicio {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	a {
+		display: flex;
+		color: #fff;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 15px;
+		padding: 10px;
+		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	li {
+		position: relative;
+		float: left;
+		margin: auto;
+		padding: 5px;
+		&:hover {
+			background: #FC89AC;
+		}
+	}
+}
+#lista1_inicio {
+	list-style: none;
+	a {
+		display: flex;
+		color: #fff;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 15px;
+		padding: 10px;
+		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+}
+#pagina {
+	color: white;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+#foot {
+	color: rgb(214, 214, 214);
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	a {
+		display: flex;
+		color: rgb(214, 214, 214);
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 15px;
+		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+}

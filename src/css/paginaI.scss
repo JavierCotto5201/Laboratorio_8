@@ -1,0 +1,32 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~animate.css/animate.css";
+
+body {
+	background-image: linear-gradient(#7F8C8D, #000);
+	height: 720px;
+	color: white;
+	font-size: 18px;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+img {
+	display: block;
+	margin: auto;
+}
+ul {
+	list-style: none;
+}
+label {
+	color: white;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+a {
+	display: flex;
+	color: rgb(214, 214, 214);
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 15px;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
